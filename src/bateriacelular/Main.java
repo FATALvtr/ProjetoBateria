@@ -18,7 +18,6 @@ public class Main {
         
         System.out.println("Sua bateria esta quantos %(por-cento) de carga?");
         valor = scan.nextInt();
-        
         volks1.setNivel(valor);
 
         System.out.print("Carregar celular ---> digite (1).\n");
@@ -43,6 +42,7 @@ public class Main {
             default:
                 System.out.print("\nEscolha invalida!");
 
+        //testando GIT HUB
         }
     }
 }
